@@ -1,23 +1,40 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.so
 .Python
 env/
-healthcare_env/
 venv/
 .venv/
+healthcare_env/
+
+# Database
+*.db
 *.sqlite3
-.DS_Store
-*.log
 database/credentials.ini
+database/passwords.txt
+
+# Environment variables
 .env
-.venv
-instance/
-.pytest_cache/
-.coverage
-htmlcov/
-dist/
-build/
-*.egg-info/
-.ipynb_checkpoints/
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

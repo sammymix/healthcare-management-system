@@ -27,6 +27,7 @@ numpy==2.3.5
 packaging==25.0
 pandas==2.3.3
 pillow==12.0.0
+plotly==6.5.0
 protobuf==6.33.1
 psycopg2-binary==2.9.11
 pyarrow==21.0.0
@@ -54,9 +55,3 @@ tzdata==2025.2
 urllib3==2.5.0
 uvicorn==0.38.0
 watchdog==6.0.0
-streamlit>=1.28.0
-plotly>=5.15.0
-pandas>=1.5.0
-streamlit>=1.28.0
-plotly>=5.15.0
-pandas>=1.5.0
